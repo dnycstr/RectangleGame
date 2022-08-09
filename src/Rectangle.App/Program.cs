@@ -149,7 +149,7 @@ static void ProcessGrid(Grid userGrid)
         if (selectedOption == removeRectangle)
         {
             Console.WriteLine();
-            Console.WriteLine("Let's locate a rectangle on the grid");
+            Console.WriteLine("Let's remove a rectangle from the grid");
             Console.Write($" Enter the rectangle x-axis point: ");
             var positionXInput = Console.ReadLine();
             Console.Write($" Enter the rectangle y-axis point: ");
